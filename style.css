@@ -1,0 +1,67 @@
+*{
+margin: 0;
+padding: 0;
+background: #ff3c3c;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Code:400,600,700&display=swap");
+
+
+.titulo{
+color: #ffff;
+font-family: muli-regular,arial,sans-serif;
+text-align: center;
+
+}
+
+.campo-texto{
+width: 150px;
+height: 20px;
+background-color: white;
+border: 3px solid #7800C8;
+position: relative;
+margin-bottom: 10px;
+
+}
+
+.contenedor{
+width: 50%;
+height: 30%;
+position: relative;
+left: 40%;
+margin-top: 8%;
+
+}
+
+.btn{
+border:2px solid #7800C8;
+border-radius:.125rem;
+cursor:pointer;
+margin-top:-1px;
+padding:.65rem 1rem;
+margin-left:-1px;
+background-color:#7800C8;
+opacity: 0.8;
+}
+
+.btn:hover{
+    background-color:#7800C8;
+    opacity: 1.1;
+}
+
+.slc{
+border:2px solid #7800C8;
+border-radius:.125rem;
+cursor:pointer;
+margin-top:-1px;
+padding:.65rem 1rem;
+margin-left:-1px;
+background-color:#7800C8;
+opacity: 0.8;
+
+}
+.slc:hover{
+    background-color:#7800C8;
+    opacity: 1.1;
+
+}

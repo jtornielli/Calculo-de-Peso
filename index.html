@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="titulo">Calculo de Peso</h1>
+    <div class="contenedor">
+        <input class="campo-texto"type="text" id="txtPesoAbonado" placeholder="Peso Abonado(KG)">
+        <input class="campo-texto"type="text" id="txtPesoReal" placeholder="Peso Real del producto(KG)"><br>
+        <input class="btn" type="button" value="Calcular!" id="btnCalcular">
+        <select class="slc" name="paises" id="slcPais">
+            <option value="x">Selecciona un pais!</option>
+            <option value="ar">Argentina</option>
+            <option value="ur">Uruguay</option>
+            <option value="pe">Peru</option>
+            <option value="br">Brasil</option>
+        </select>
+        <p id="p-resultado"></p>
+    </div>
+    <script src="jquery-3.4.1.slim.min.js"></script>
+    <script src="js.js"></script>
+</body>
+</html>
